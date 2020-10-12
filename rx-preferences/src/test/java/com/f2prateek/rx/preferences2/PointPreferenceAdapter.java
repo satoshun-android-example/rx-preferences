@@ -1,7 +1,7 @@
 package com.f2prateek.rx.preferences2;
 
 import android.content.SharedPreferences;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 final class PointPreferenceAdapter implements Preference.Adapter<Point> {
   @Override public Point get(@NonNull String key, @NonNull SharedPreferences preferences) {

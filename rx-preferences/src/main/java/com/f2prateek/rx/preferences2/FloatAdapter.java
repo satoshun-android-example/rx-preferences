@@ -1,7 +1,7 @@
 package com.f2prateek.rx.preferences2;
 
 import android.content.SharedPreferences;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 final class FloatAdapter implements Preference.Adapter<Float> {
   static final FloatAdapter INSTANCE = new FloatAdapter();

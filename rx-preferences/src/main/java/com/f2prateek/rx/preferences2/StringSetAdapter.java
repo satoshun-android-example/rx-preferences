@@ -2,7 +2,7 @@ package com.f2prateek.rx.preferences2;
 
 import android.annotation.TargetApi;
 import android.content.SharedPreferences;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import java.util.Set;
 
 import static android.os.Build.VERSION_CODES.HONEYCOMB;
